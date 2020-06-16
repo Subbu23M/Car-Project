@@ -3,30 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Tutorial</title>
-    <style>
-        h1{
-            color:seagreen ;
-              font-size: initial; 
-              font-family: Arial, Helvetica, sans-serif;
-                        
+    <title> About CSS</title>
+    <style> 
+    .one {
+        text-transform: uppercase;
         }
-    </style>
-</head>
+        p{
+            font-size: 1rem;
+        }
+        ul{
+            font-family: monospace;
+        }
+        .one{
+        
+            border-radius: 30%;
+            border-color: darkorange;
+            border-style: dotted;
+            border-width: 5px;
+        
+        }
+        #one{
+            text-transform: uppercase;
+        }
+        .three{
+            border-style: double;
+            border-color: darkviolet;
+            border-width: 10px;
+            text-align: center;
+            padding: 20px 10px 5px 3px;
+            margin: 15px 10px 3px 2px;
+        }
+        [type="checkbox"] {
+            margin: 10px 0px 0px 12px;
+        }
+        body{
+            background-color: floralwhite;
+            text-align: justify;
+            font-weight: 700;
+        }
+        h1{
+            color: royalblue;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: monospace;
+        }
+        .d1{
+            background-color: springgreen;
+        }
+        .d2{
+            background-color: lawngreen;
+        }
+        .d3{
+            background-color: lightseagreen;
+        }
+        .d4{
+            background-color: magenta;
+        }
+        .d5{
+            background-color: mediumspringgreen;
+        }
+        .container{
+            font-size: 35px;
+            width: 100%;
+            background-color: antiquewhite;
+            display:grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 50px 50px;
+        }
+        #box-container{
+            display: flex;
+            height: 400px;
+            flex-direction: row-reverse;
+        }
+        #box-1{
+            background-color: aqua;
+            width: 50%;
+            height: 50%;
+        }
+        #box-2{
+            background-color: bisque;
+            width: 50%;
+            height: 50%;
+        }
+        a{
+            text-decoration: underline;
+        }
+        
+            </style>
+    </head>
 <body>
-    <a href="about.html"> About page</a>
+    <h2 style="background-color: yellow; color: red; text-align: center;"> TeluguDesamParty </h2> 
 
-<!-- inline css-->
-    <h1 style="color:blueviolet; font-size: 3rem"> Welcome to CSS</h1>
-    <h2 style="font-size: small;"> Hello </h2>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias nisi praesentium mollitia facilis unde porro ducimus tempore doloribus ipsum sit.</p>
 
-    <!-- internal css-->
-    <h1> Hello Brother</h1>
-    <h1> Bangalore</h1>
-    <h1> Chennai</h1>
-    <h1> Newyork City</h1>
-    <h1> Losangels</h1>
+    <div style="background-color: slategray;">
+    <h2 style ="font-size: 25px;"> Political Parties in AndhraPradesh</h2>
+        <ul>
+            <li id="one"> YsrCongressParty</li>
+            <li> TeluguDesamParty</li>
+            <li> BharatiyaJanathaParty</li>
+            <li> CPI</li>
+            <li> CPM </li>
+        </ul>
+        <h2> Different States in India </h2>
+        <ol>
+<li> Telangana </li>
+<li> TamilNadu</li>
+<li> Karnataka</li>
+<li> Kerala </li>
+<li> Odisha </li>
+        </ol>
+    </div>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut asperiores temporibus earum totam eligendi voluptatem beatae corrupti aliquid adipisci laudantium?</p>
+<img src="./Photos/1.jpeg" class="one" alt="ll">
 
-    
+<h1 class="three" style="color: sandybrown;"> Hello World</h1>
+
+<h1>    
+ <input type="checkbox"> lazy 
+ </h1>
+ <a href="https://www.abntelugu.com" target=_blank;"> ABN</a>
+
+ <div class="container">
+     <div class="d1"> 1</div>
+     <div class="d2"> 2</div>
+     <div class="d3"> 3</div>
+     <div class="d4"> 4</div>
+     <div class="d5"> 5</div>
+</div>
+<br>
+<br>
+<div id="box-container">
+    <div id="box-1">  </div>
+    <div id="box-2">  </div>
+</div>
 </body>
 </html>
